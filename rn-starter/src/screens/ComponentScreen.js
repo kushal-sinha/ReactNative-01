@@ -2,10 +2,10 @@ import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 
 const ComponentScreen = () => {
-    const greeting = "i am kushal"
+    const yourname = "Kushal Sinha";
     return <View>
-        <Text style={styles.textStyle}>Hi from kushal</Text>
-        <Text style={styles.textStyle}>{greeting}</Text>
+        <Text style={{ fontSize: 45 }}>Getting started with React Native</Text>
+        <Text style={{ fontSize: 20 }}>My name is {yourname}</Text>
     </View>;
 }
 
