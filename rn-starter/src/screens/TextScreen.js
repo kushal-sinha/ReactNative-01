@@ -5,6 +5,7 @@ const TextScreen = () => {
     const [name, SetName] = useState('');
     return (
         <View>
+            <Text>Enter Name:</Text>
             <TextInput onChangeText={newValue =>
                 SetName(newValue)
             } value={name} style={styles.input} autoCapitalize="none" autoCorrect={false} />
